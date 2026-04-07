@@ -47,6 +47,6 @@ jobs:
                   tags: |
                       ghcr.io/${{ steps.repo-name.outputs.repo-name }}:latest
                       ghcr.io/${{ steps.repo-name.outputs.repo-name }}:${{ github.sha }}
-                  platforms: linux/amd64
+                  platforms: linux/amd64,linux/arm64
                   cache-from: type=gha
                   cache-to: type=gha,mode=max

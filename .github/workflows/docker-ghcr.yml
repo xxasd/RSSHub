@@ -16,6 +16,8 @@ jobs:
     permissions:
       contents: read
       packages: write
+      id-token: write # For OIDC
+      attestations: write # For artifact attestation
 
     steps:
       - name: Checkout

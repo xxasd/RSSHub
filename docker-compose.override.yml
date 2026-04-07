@@ -1,0 +1,3 @@
+services:
+  rsshub:
+    image: ghcr.io/xxasd/rsshub:latest
